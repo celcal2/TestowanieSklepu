@@ -71,7 +71,7 @@ public class ShoppingTest {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File scrFile = screenshot.getScreenshotAs(OutputType.FILE);
         String name = "screenShot" + uniqueNumber + ".png";
-        FileUtils.copyFile(scrFile, new File("C:\\Users\\celin\\Desktop\\CodersLab_kurs\\Automatyzujący\\Portfolio\\TestowanieSklepu2022\\src\\test\\printScreen\\" + name));
+        FileUtils.copyFile(scrFile, new File("C:\\Users\\celin\\Desktop\\CodersLab_kurs\\TestowanieSklepu\\TestowanieSklepu2022\\src\\test\\printScreen\\" + name));
 
 
 //        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
